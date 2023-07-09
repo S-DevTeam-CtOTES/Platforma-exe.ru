@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  // FIX: Fix aliases
   resolve: {
     alias: {
       '@': '/src',
@@ -13,5 +14,3 @@ export default defineConfig({
   },
   plugins: [react()],
 })
-
-// TODO: Aliases

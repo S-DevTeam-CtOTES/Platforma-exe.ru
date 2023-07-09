@@ -1,0 +1,76 @@
+// Variable =====================
+/* ===Color Themes=== */
+// Dark Theme
+$dark-theme-text: #FFFFFF;
+$dark-theme-link: #FFFFFF;
+$dark-theme-bg: #373737;
+$dark-theme-bg-img: url(../assets/);
+// Light Theme
+$light-theme-text: #373737;
+$light-theme-link: #373737;
+$light-theme-bg: #FFFFFF;
+$light-theme-bg-img: url(../assets/);
+// fonts
+$fonts-text: 'Monseratt';
+// ui-index -  Переменные для регулирования z-index
+$ui-index-1: 1; // Для наползающих элементов в общем потоке
+$ui-index-2: 2; // Для наползающих элементов в общем потоке
+$ui-index-3: 3; // Для масок (blur, затемнение)
+$ui-index-4: 4; // Для сайдбаров
+$ui-index-5: 5; // Для модальных оконо (popup)
+$ui-index-6: 6; // Для элементов, покрываюших всё
+/* Sizes */
+$text-size: rem(1);
+$title-text-size: rem(1.2);
+$btn-text-size: rem(1);
+// UI Mixins ================
+// Button mixin
+@mixin button {
+    outline: none;
+    border: none;
+    border-radius: 17px;
+}
+// Input mixin
+@mixin input {
+    outline: none;
+    border: 1px solid #373737;
+}
+// Global Styles ================
+// *
+* {
+    box-sizing: border-box;
+}
+// html tag styles
+html {
+    scroll-behavior: smooth;
+}
+// Body styles
+body {
+    background: $dark-theme-bg;
+    color: $dark-theme-text;
+    font-family: $fonts-text, serif;
+}
+
+/* Текст */
+a {
+    text-decoration: none;
+    font-size: $text-size;
+}
+p {
+    font-size: $text-size;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: $title-text-size;
+}
+/* Списки */
+ul,
+li {
+    list-style: none;
+}
+
+// App Styles ================

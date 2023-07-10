@@ -3,5 +3,8 @@
 @import 'Normalize.scss';
 @import 'Mixins.scss';
 // Global Styles ================
-
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
 // App Styles ================

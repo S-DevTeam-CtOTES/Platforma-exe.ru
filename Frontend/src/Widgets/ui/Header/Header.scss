@@ -1,0 +1,52 @@
+@import '../../../App/Styles/Variables.scss';
+
+.header {
+
+    background-color: $black;
+
+    &__nav {
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__nav-wrapper {
+        display: flex;
+        align-items: center;
+    }
+
+
+    &__nav-wrapper-burger {
+        display: flex;
+        gap: 5px;
+        flex-direction: column;
+        align-items: center;
+        width: 40px;
+        cursor: pointer;
+    }
+
+    &__nav-wrapper-burger-line {
+        width: 40px;
+        height: 3px;
+        background-color: $white;
+     
+    }
+
+
+    &__nav-wrapper-title {
+        margin-left: 15px;
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+.switch {}
+
+.slider {}
+
+.round {}

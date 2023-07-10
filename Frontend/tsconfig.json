@@ -20,14 +20,20 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
 
-    "baseUrl": ".",
+    "baseUrl": "./",
     "paths": {
       "@/*": ["src/*"], 
-      "@components/*": ["src/Components/*"],
-      "@assets/*": ["src/assets/*"],
-      "@imgs/*": ["src/assets/img/*"]
+      "@App/*": ["src/App/*"],
+      "@Entities/*": ["src/Entities/*"],
+      "@Pages/*": ["src/Pages/*"],
+      "@Shared/*": ["src/Shared/*"],
+      "@Widgets/*": ["src/Widgets/*"],
+      "@Features/*": ["src/Features/*"],
+      "@Styles/*": ["src/App/Styles/*"],
+      "@imgs/*": ["src/assets/img/*"],
+      "@Icons/*": ["src/assets/Icons/*"]
     }
   },
-  "include": ["src/*", "src/Components/*", "src/assets/*", "src/assets/img/*"],
+  "include": ["src/*", "src/App/*", "src/Entities/*", "src/Pages/*", "src/Shared/*", "src/Widgets/*", "src/Features/*", "src/App/Styles/*", "src/assets/img/*", "src/assets/Icons/*", "src/Pages/ui/index.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

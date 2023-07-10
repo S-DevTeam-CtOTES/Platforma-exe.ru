@@ -1,9 +1,13 @@
-import React from 'react'
+import "./Header.scss";
+import logo from "@imgs/react.svg"
 
 const Header = () => {
   return (
-    <div>Header</div>
-  )
-}
+    <header className="header">
+      <img src={logo} alt="logotype" />
+      <h1>I'm Header</h1>
+    </header>
+  );
+};
 
-export default Header
+export default Header;

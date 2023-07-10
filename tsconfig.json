@@ -7,19 +7,27 @@
     "skipLibCheck": true,
 
     /* Bundler mode */
-    "moduleResolution": "bundler",
+    "moduleResolution": "node",
     "allowImportingTsExtensions": true,
+    "allowSyntheticDefaultImports": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-
     /* Linting */
-    "strict": true,
+    "strict": false,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"], 
+      "@components/*": ["src/Components/*"],
+      "@assets/*": ["src/assets/*"],
+      "@imgs/*": ["src/assets/img/*"]
+    }
   },
-  "include": ["src"],
+  "include": ["src/*", "src/Components/*", "src/assets/*", "src/assets/img/*"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

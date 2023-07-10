@@ -1,0 +1,36 @@
+// *
+* {
+    box-sizing: border-box;
+}
+// html tag styles
+html {
+    scroll-behavior: smooth;
+}
+// Body styles
+body {
+    background: $dark-theme-bg;
+    color: $dark-theme-text;
+    font-family: $fonts-text, serif;
+}
+
+/* Текст */
+a {
+    text-decoration: none;
+    font-size: $text-size;
+}
+p {
+    font-size: $text-size;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: $title-text-size;
+}
+/* Списки */
+ul,
+li {
+    list-style: none;
+}

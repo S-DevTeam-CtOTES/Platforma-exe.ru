@@ -1,0 +1,30 @@
+@import '../../styles/Variables.scss';
+.header {
+    display: flex;
+    // .header__burger
+
+    &__burger {
+        display: block;
+        span {
+            height: 20px;
+            color: $dark-theme-link;
+        }
+    }
+
+    // .header__logo
+
+    &__logo {
+    }
+
+    // .header__theme
+
+    &__theme {
+    }
+}
+.theme {
+
+    // .theme__toggle
+
+    &__toggle {
+    }
+}

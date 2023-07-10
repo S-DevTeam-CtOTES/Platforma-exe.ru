@@ -16,7 +16,26 @@ module.exports = {
     project: true,
     tsconfigRootDir: __dirname,
   },
-  plugins: ['react-refresh'],
+  settings: {
+    'import/resolver': {
+      alias: {
+        map: [
+          ['@', '/src'],
+          ['@components', '/src/Components'],
+          ['@assets', '/src/assets'],
+          ['@imgs', '/src/assets/imgs'],
+        ],
+        extensions: ['.ts', '.tsx', '.js', '.jsx', '.json'],
+      },
+    },
+    'import/no-unresolved': [
+      'error',
+      {
+        ignore: ['@components/*', '@assets/*', '@imgs/*', '@/*'],
+      },
+    ],
+  },
+  plugins: ['react-refresh',],
   rules: {
     'react-refresh/only-export-components': [
       'warn',

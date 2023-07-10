@@ -1,9 +1,7 @@
-import React from 'react'
-import { Header } from '../../../widgets/ui'
+import React from "react";
+import { Header } from "../../../widgets/ui";
 const Quizze = () => {
-  return (
-    <div>Quizze</div>
-  )
-}
+  return <div>Quizze</div>;
+};
 
-export default Quizze
+export default Quizze;

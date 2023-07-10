@@ -34,6 +34,6 @@
       "@Icons/*": ["src/assets/Icons/*"]
     }
   },
-  "include": ["src/*", "src/App/*", "src/Entities/*", "src/Pages/*", "src/Shared/*", "src/Widgets/*", "src/Features/*", "src/App/Styles/*", "src/assets/img/*", "src/assets/Icons/*", "src/Pages/ui/index.ts"],
+  "include": ["src/*", "src/App/*", "src/Entities/*", "src/Pages/*", "src/Shared/*", "src/Widgets/*", "src/Features/*", "src/App/Styles/*", "src/assets/img/*", "src/assets/Icons/*", "src/Pages/ui/*"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

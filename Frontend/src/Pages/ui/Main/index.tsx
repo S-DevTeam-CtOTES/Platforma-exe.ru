@@ -1,12 +1,11 @@
-import React from 'react'
-import {Header} from '@Widgets/ui'
+import { Header } from "@Widgets/ui";
 
 const Main = () => {
   return (
     <>
-      <Header/>
+      <Header />
     </>
-  )
-}
+  );
+};
 
-export {Main}
+export { Main };

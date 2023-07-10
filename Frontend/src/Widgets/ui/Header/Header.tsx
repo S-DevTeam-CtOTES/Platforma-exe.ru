@@ -1,29 +1,27 @@
-
-import './Header.scss'
+import { App } from "@/Shared";
+import "./Header.scss";
 
 const Header = () => {
   return (
-    <header className='header'>
+    <header className="header">
       <div className="container">
         <nav className="header__nav">
           <div className="header__nav-wrapper">
             <div className="header__nav-wrapper-burger">
-              <div className='header__nav-wrapper-burger-line'></div>
-              <div className='header__nav-wrapper-burger-line'></div>
+              <div className="header__nav-wrapper-burger-line"></div>
+              <div className="header__nav-wrapper-burger-line"></div>
             </div>
-            <div className="header__nav-wrapper-title">
-              Platforma
-            </div>
+            <div className="header__nav-wrapper-title">{App.Name}</div>
           </div>
 
           <label className="switch">
-              <input type="checkbox" checked />
-              <span className="slider round"></span>
+            <input type="checkbox" checked />
+            <span className="slider round"></span>
           </label>
-        </nav> 
+        </nav>
       </div>
     </header>
-  )
-}
+  );
+};
 
-export {Header}
+export { Header };

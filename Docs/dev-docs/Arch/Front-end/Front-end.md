@@ -10,7 +10,7 @@
 
 Файловая структура
 
-![Alt text](image.png)
+![Alt text](./imgs/file-struct.png)
 
 
 ### Ссылки
@@ -18,4 +18,4 @@
 - [Архитектура](../README.md)
 - [Техническая документация](../../README.md)
 
-&copy; 2023 PLATFORMA.EXE
+<center>&copy; 2023 PLATFORMA.EXE</center>

@@ -4,5 +4,6 @@
 ## Разделы
 
 - [Архитектура](./Arch/README.md)
+- [Git](./Git/Readme.md)
 
-&copy; 2023 PLATFORMA.EXE
+<center>&copy; 2023 PLATFORMA.EXE</center>

@@ -2,4 +2,4 @@
 <hr>
 
 
-&copy; 2023 PLATFORMA.EXE
+<center>&copy; 2023 PLATFORMA.EXE</center>

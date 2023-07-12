@@ -8,3 +8,9 @@
     margin: 0 auto;
 }
 // App Styles ================
+
+button {
+    // $color, $background-color, $border-color,$borderradius
+    // example:
+    // @include button(#2FC9D2, transparent, #2FC9D2, 10px)
+}

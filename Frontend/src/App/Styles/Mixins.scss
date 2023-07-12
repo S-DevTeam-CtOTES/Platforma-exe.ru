@@ -4,10 +4,13 @@
 // or button(#fff, transparent, 20px);
 @mixin button($color, $background-color, $borderradius) {
     outline: none;
-    border: none;
+    font-size: 36px;
+    font-weight: 800;
+    padding: 30px 40px 30px 40px;
     color: $color;
     background-color: $background-color;
     border-radius: $borderradius;
+    border: 5px solid $color;
 }
 // Input mixin
 @mixin input {

@@ -22,6 +22,7 @@
 
 ### Ссылки
 
+[Документация](./Docs/README.md)
 [Список задач](https://github.com/S-DevTeam-CtOTES/Platforma-exe.ru/issues)
 
 --------------------------

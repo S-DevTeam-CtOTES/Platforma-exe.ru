@@ -5,6 +5,8 @@
 
 - [Техническая документация](./dev-docs/README.md)
   - [Архитектура](./dev-docs/Arch/README.md)
+    - [Front-end](./dev-docs/Arch/Front-end/Front-end.md)
+    - [Back-end](./dev-docs/Arch/Back-end/Back-end.md)
   - [Git](./dev-docs/Git/Readme.md)
 - [Пользовательская документация](./user-docs/README.md)
 

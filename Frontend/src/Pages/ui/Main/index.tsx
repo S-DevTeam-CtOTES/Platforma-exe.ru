@@ -2,9 +2,7 @@ import { Header } from "@Widgets/ui";
 
 const Main = () => {
   return (
-    <>
       <Header />
-    </>
   );
 };
 

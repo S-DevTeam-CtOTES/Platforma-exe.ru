@@ -22,7 +22,9 @@
 
 ### Ссылки
 
-[Список задач](https://github.com/S-DevTeam-CtOTES/Platforma-exe.ru/issues)
+[Проблемы](https://github.com/S-DevTeam-CtOTES/Platforma-exe.ru/issues)
+
+[Список задач](https://github.com/orgs/S-DevTeam-CtOTES/projects/1)
 
 --------------------------
 

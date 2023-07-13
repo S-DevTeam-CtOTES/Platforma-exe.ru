@@ -50,7 +50,7 @@
 │   └───app                 # Главное приложение проекта (Platforma-exe.ru back-end)
 │           main.go         # Entry point (Точка входа приложения)
 │
-├───pkg
+├───pkg                      # Сожржит пакеты библиотек (handlers, models, routes, utils)
 │   ├───handlers             # Пакет `handlers`, для работа с хендлерами (обрабатывает запросы с клиента)
 │   │       admin.go         # Файл, содержащий функции для хендлера `admin` (хендлер панели администратора)
 │   │       authorization.go # Файл, содержащий функции для хендлера Регистрации и Авторизации
@@ -80,4 +80,4 @@
 - [Архитектура](../README.md)
 - [Техническая документация](../../README.md)
 
-<center>&copy; 2023 PLATFORMA.EXE</center>
+<p align="center">&copy; 2023 PLATFORMA.EXE</p>

@@ -85,7 +85,7 @@
     Копирайт - это авторское право на создание и использование художественных, научных, архитектурных, литературных и других произведений. В нашем проекте он представляет из себя:
 
     ```
-    <center>&copy; 2023 PLATFORMA.EXE</center>
+    <p align="center">&copy; 2023 PLATFORMA.EXE</p>
     ```
 
-<center>&copy; 2023 PLATFORMA.EXE</center>
+<p align="center">&copy; 2023 PLATFORMA.EXE</p>

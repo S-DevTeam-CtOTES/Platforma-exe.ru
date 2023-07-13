@@ -20,4 +20,4 @@
 | <img width="100px" src="./img/Львов.jpg" alt=""/> | Львов Никита Романович | Разработчик Front-end архитектуры проекта, Front-end | [Slark58](https://github.com/Slark58) |
 | <img width="100px" src="./img/Герасимов.png" alt=""/> | Гирасимов Дмитрий Романович | Аналитик | [Dmitry2254](https://github.com/Dmitry2254) |
 
-<center>&copy; 2023 PLATFORMA.EXE</center>
+<p align="center">&copy; 2023 PLATFORMA.EXE</p>

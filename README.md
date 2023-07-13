@@ -37,6 +37,4 @@
 
 </center>
 
-<center>
-&COPY; 2023 PLATFORMA
-</center>
+<p align="center">&copy; 2023 PLATFORMA.EXE</p>

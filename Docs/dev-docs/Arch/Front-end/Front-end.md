@@ -98,4 +98,4 @@ export * as authFormModel from "./model"
 - [Архитектура](../README.md)
 - [Техническая документация](../../README.md)
 
-<center>&copy; 2023 PLATFORMA.EXE</center>
+<p align="center">&copy; 2023 PLATFORMA.EXE</p>

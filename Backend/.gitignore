@@ -1,1 +1,10 @@
+# Logs
+logs
+*.log
+
+# Enviroment
 .env
+
+# Backups
+backups/
+backups/archives

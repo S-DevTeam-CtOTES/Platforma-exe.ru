@@ -3,11 +3,13 @@
 
 ## Разделы документации
 
+- [Правила оформления документации](./DOCTERMS.md)
 - [Техническая документация](./dev-docs/README.md)
   - [Архитектура](./dev-docs/Arch/README.md)
     - [Front-end](./dev-docs/Arch/Front-end/Front-end.md)
     - [Back-end](./dev-docs/Arch/Back-end/Back-end.md)
   - [Git](./dev-docs/Git/Readme.md)
+  - [GitHub Projects](./dev-docs/Projects/GHProjects.md)
 - [Пользовательская документация](./user-docs/README.md)
 
 ## Ответственные лица
@@ -20,4 +22,4 @@
 | <img width="100px" src="./img/Львов.jpg" alt=""/> | Львов Никита Романович | Разработчик Front-end архитектуры проекта, Front-end | [Slark58](https://github.com/Slark58) |
 | <img width="100px" src="./img/Герасимов.png" alt=""/> | Гирасимов Дмитрий Романович | Аналитик | [Dmitry2254](https://github.com/Dmitry2254) |
 
-<center>&copy; 2023 PLATFORMA.EXE</center>
+<p align="center">&copy; 2023 PLATFORMA.EXE</p>

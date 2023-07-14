@@ -28,15 +28,13 @@
 
 --------------------------
 
-<center>
+<div align="center">
 
 [Сайт](https://platforma-exe.ru) 
 [Telegram](https://t.me/platformaexe)
 [VKontakte](https://vk.com/platformaexe)
 [YouTube](https://www.youtube.com/@platforma-exe)
 
-</center>
+</div>
 
-<center>
-&COPY; 2023 PLATFORMA
-</center>
+<p align="center">&copy; 2023 PLATFORMA.EXE</p>

@@ -6,4 +6,4 @@
 - [Архитектура](./Arch/README.md)
 - [Git](./Git/Readme.md)
 
-<center>&copy; 2023 PLATFORMA.EXE</center>
+<p align="center">&copy; 2023 PLATFORMA.EXE</p>

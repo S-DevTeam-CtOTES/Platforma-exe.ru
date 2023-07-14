@@ -1,6 +1,5 @@
 import { App } from "@/Shared";
-import './Header.scss';
-import { ToggleTheme } from "@/Features";
+import "./Header.scss";
 
 const Header = () => {
   return (
@@ -15,7 +14,10 @@ const Header = () => {
             <div className="header__nav-wrapper-title">{App.Name}</div>
           </div>
 
-          <ToggleTheme/>
+          <label className="switch">
+            <input type="checkbox" checked />
+            <span className="slider round"></span>
+          </label>
         </nav>
       </div>
     </header>

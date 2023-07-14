@@ -3,11 +3,13 @@
 
 ## Разделы документации
 
+- [Правила оформления документации](./DOCTERMS.md)
 - [Техническая документация](./dev-docs/README.md)
   - [Архитектура](./dev-docs/Arch/README.md)
     - [Front-end](./dev-docs/Arch/Front-end/Front-end.md)
     - [Back-end](./dev-docs/Arch/Back-end/Back-end.md)
   - [Git](./dev-docs/Git/Readme.md)
+  - [GitHub Projects](./dev-docs/Projects/GHProjects.md)
 - [Пользовательская документация](./user-docs/README.md)
 
 ## Ответственные лица

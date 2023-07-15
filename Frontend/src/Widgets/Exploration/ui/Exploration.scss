@@ -1,0 +1,33 @@
+@import '../../../App/Styles/Variables.scss';
+@import '../../../App/Styles/Mixins.scss';
+
+
+.Exploration {
+
+    // .Exploration__wrapper
+    margin-top: 150px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    &__textbutton {
+        @include button($black, $light-theme-button-bg, 10px, 45px);
+
+    }
+
+    // .Exploration__img
+
+    &__img {
+        width: 500px;
+        height: 500px;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+.container {
+}

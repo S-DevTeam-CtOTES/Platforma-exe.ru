@@ -1,0 +1,28 @@
+@import '../../../App/Styles/Variables.scss';
+@import '../../../App/Styles/Mixins.scss';
+.MainInfo {
+
+    // .MainInfo__wrapper
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    // .MainInfo__img
+    &__textbutton {
+        @include button($blue, $light-theme-button-bg, 10px, 45px);
+    }
+
+    &__img {
+        width: 800px;
+        height: 800px;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+.container {
+}

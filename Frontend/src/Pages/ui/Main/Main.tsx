@@ -1,14 +1,13 @@
 import { Header, MainInfo, Exploration } from "@/Widgets";
-import './Main.scss'
-
+import "./Main.scss";
 
 const Main = () => {
   return (
     <div className="Main">
-      {/* <div className="Main__triangle"></div> */}
-      {/* <Header />
-      <MainInfo/>
-      <Exploration/> */}
+      <div className="Main__triangle"></div>
+      <Header />
+      <MainInfo />
+      <Exploration />
     </div>
   );
 };

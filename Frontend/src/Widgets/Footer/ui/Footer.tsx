@@ -1,8 +1,8 @@
 import React from 'react'
 import './Footer.scss'
 import IconTelegram from '@Icons/IconTelegram.png'
-import IconVK from './IconVK.png'
-import IconYouTube from './IconYouTube.png'
+import IconVK from '@Icons/IconVK.png'
+import IconYouTube from '@Icons/IconYouTube.png'
 
 
 const Footer = () => {

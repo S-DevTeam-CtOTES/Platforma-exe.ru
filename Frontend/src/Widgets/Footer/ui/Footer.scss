@@ -1,0 +1,170 @@
+@import '../../../App/Styles/Variables.scss';
+
+.footer {
+  background-color: $dark-theme-bg;
+  color: $dark-theme-text;
+  font-family: $fonts-text;
+  padding: 60px 147px 30px;
+  display: flex;
+  gap: 80px;
+  flex-direction: column;
+  &__block {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__signature {
+    display: flex;
+    justify-content: center;
+  }
+}
+.platforma {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  &__title {
+    display: inline-block;
+    font-size: 48px;
+    position: relative;
+    top: 0;
+    padding-bottom: 5px;
+  }
+
+  &__title::after {
+    content: '';
+    background-color: $dark-theme-text;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+  }
+
+  &__subtitle {
+    font-family: $fonts-text;
+    font-size: 16px;
+  }
+}
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  &__title {
+    font-size: 48px;
+  }
+
+  &__links {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    &_icon {
+      width: 30px;
+      object-fit: contain;
+    }
+
+    &_title {
+      color: $dark-theme-text;
+      font-size: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 765px) {
+  .footer {
+    padding: 90px 34px 35px;
+    &__signature {
+      font-size: 14px;
+    }
+  }
+  .platforma {
+    &__title {
+      font-size: 36px;
+    }
+
+    &__subtitle {
+      font-size: 12px;
+    }
+  }
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    &__title {
+      font-size: 36px;
+    }
+
+    &__links {
+      display: inline-flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    &__link {
+      gap: 5px;
+      &_icon {
+        width: 15px;
+      }
+
+      &_title {
+        color: $dark-theme-text;
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+    .footer {
+      padding: 90px 34px 35px;
+      &__signature {
+        font-size: 14px;
+      }
+    }
+    .platforma {
+      &__title {
+        font-size: 24px;
+      }
+  
+      &__subtitle {
+        font-size: 8px;
+      }
+    }
+    .contacts {
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+      justify-content: center;
+      gap: 18px;
+      &__title {
+        font-size: 24px;
+      }
+  
+      &__links {
+        display: inline-flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+  
+      &__link {
+        gap: 5px;
+        &_icon {
+          width: 15px;
+        }
+  
+        &_title {
+          color: $dark-theme-text;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  

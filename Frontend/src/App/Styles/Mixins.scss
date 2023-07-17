@@ -2,15 +2,17 @@
 // Button mixin
 // Пример: button($dark-theme-text, $background-color, $border-radius);
 // or button(#fff, transparent, 20px);
-@mixin button($color, $background-color, $borderradius) {
+@mixin button($color, $background-color, $borderradius, $margin-top) {
     outline: none;
     font-size: 36px;
     font-weight: 800;
     padding: 30px 40px 30px 40px;
     color: $color;
+    margin-top: $margin-top;
     background-color: $background-color;
     border-radius: $borderradius;
     border: 5px solid $color;
+    cursor: pointer;
 }
 // Input mixin
 @mixin input {

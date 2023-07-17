@@ -1,0 +1,15 @@
+.Main {
+    &__triangle {
+    z-index: -1;
+    position: absolute;
+    top: -600px;
+
+    width: 0;
+    height: 0;
+
+    border-top: 970px solid transparent;
+    border-left: 1040px solid #000000;
+    border-bottom: 1470px solid transparent;
+
+    }
+}

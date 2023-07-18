@@ -11,7 +11,7 @@ import Youtube from "@Shared/assets/img/Youtube.svg";
 const Research = () => {
   return (
     <section className="Research__component">
-      {/* <Header /> */}
+      <Header />
 
       <div className="container">
         <div className="Research__component-leftPart">

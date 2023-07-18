@@ -1,19 +1,19 @@
 import React from "react";
 import { Exploration, Header } from "@/Widgets";
-import "./research.scss";
 import { App } from "@Shared/consts/index";
 import Image from "@Shared/assets/img/research.svg";
 import Warning from "@Shared/assets/img/Warning.svg";
 import Telegram from "@Shared/assets/img/Telegram.svg";
 import VK from "@Shared/assets/img/VK.svg";
 import Youtube from "@Shared/assets/img/Youtube.svg";
+import "./research.scss";
 
 const Research = () => {
   return (
     <section className="Research__component">
       <Header />
 
-      <div className="container">
+      <div className="Research__component-container container">
         <div className="Research__component-leftPart">
           <div className="warning"><img src={Warning}></img></div>
           <h1 className="Research__component-leftPart-title">В разработке</h1>
@@ -36,13 +36,3 @@ const Research = () => {
 };
 
 export { Research };
-
-{
-  /* <div className="Error__404-img">
-                <img src={Oops404}></img>
-        </div>  
-
-        <div className="Error__404-cop">
-            {App.Copyright}
-  </div> */
-}

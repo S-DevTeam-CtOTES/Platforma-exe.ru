@@ -1,0 +1,117 @@
+@import '@Styles/Variables.scss';
+
+.contactUs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__Title {
+    font-weight: 900;
+    font-family: $fonts-text;
+    font-size: 96px;
+  }
+
+  &__form {
+  }
+
+  &__copyright {
+    font-size: 16px;
+    font-family: $fonts-text;
+    color: $dark-theme-text;
+  }
+}
+.form {
+  background-color: $dark-theme-popup-bg;
+  border-radius: 30px;
+  margin: 0px 147px;
+  display: inline-flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+  box-shadow: 0 0 10px white;
+  margin: 50px 0px;
+  gap: 50px;
+  padding-right: 65px;
+  height: 600px;
+  overflow: hidden;
+  &__image {
+    width: 836px;
+    position: relative;
+    top: -10px;
+    object-fit: contain;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  &__container {
+    display: flex;
+    gap: 100px;
+  }
+
+  &__block {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  &__input-block {
+    position: relative;
+    width: 300px;
+    background-color: transparent;
+    color: $dark-theme-text;
+    font-size: 16px;
+    padding: 15px 5px;
+  }
+
+  &__input-block::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: $blue;
+    border-radius: 100px;
+  }
+
+  &__input {
+    width: 100%;
+    background-color: inherit;
+    font-size: inherit;
+    color: inherit;
+    outline: none;
+    border: none;
+  }
+
+  &__textarea {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: $dark-theme-text;
+  }
+
+  &__tectarea::after {
+    content: '';
+    width: 10px;
+    height: 100px;
+    background-color: red;
+  }
+
+  &__button {
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    color: $dark-theme-text;
+    background-color: $blue;
+    padding: 6px 16px;
+    border-radius: 5px;
+    border: none;
+    font-size: 24px;
+    font-family: $fonts-text;
+  }
+}

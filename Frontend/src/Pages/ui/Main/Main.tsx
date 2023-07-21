@@ -1,6 +1,5 @@
 import { Header, MainInfo, Exploration } from "@/Widgets";
-import './Main.scss'
-
+import "./Main.scss";
 
 const Main = () => {
   return (
@@ -8,9 +7,6 @@ const Main = () => {
       <div className="Main__triangle"></div>
       <Header />
       <MainInfo/>
-
-      <Exploration/>
-      <Exploration/>
       <Exploration/>
     </div>
   );

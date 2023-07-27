@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
+import './Reviews.scss';
 
 function Reviews() {
   return (
-    <div>Reviews</div>
-  )
+    <div className= "Reviews">Отзывы</div>);
 }
 
 export  {Reviews}

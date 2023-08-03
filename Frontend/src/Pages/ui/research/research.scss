@@ -2,7 +2,7 @@
 
 .Research__component {
     height: 100vh;
-    background: $black;
+    background: var(--error-bg-color);
     &-cop {
         position: absolute;
         bottom: 30px;

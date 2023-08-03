@@ -1,12 +1,13 @@
-@import '../../../App/Styles/Variables.scss';
-@import '../../../App/Styles/Mixins.scss';
+@import "../../../App/Styles/Variables.scss";
+@import "../../../App/Styles/Mixins.scss";
+@import url("../../../App/Styles/General.css");
 
 .DynamicContentBlock {
     width: 60%;
     // .DynamicContentBlock__title
 
     &__title {
-        color: $dark-theme-text;
+        color: var(--text-color);
         font-size: 96px;
         font-weight: 900;
     }
@@ -14,7 +15,7 @@
     // .DynamicContentBlock__subtitle
 
     &__subtitle {
-        color: $dark-theme-text;
+        color: var(--text-color);
         font-size: 30px;
         font-weight: 500;
     }
@@ -22,7 +23,6 @@
     // .DynamicContentBlock__buttonText
 
     &__buttonText {
-        
         &:active {
             background-color: aliceblue;
         }

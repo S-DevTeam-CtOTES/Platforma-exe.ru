@@ -3,41 +3,41 @@
 /* 
     General Colors
 */
-$blue: #2FC9D2;  // Акцентный цвет, заголовки админ панели
-$white: #F5F5F5; // Background color light theme
+$blue: #2fc9d2; // Акцентный цвет, заголовки админ панели
+$white: #f5f5f5; // Background color light theme
 $black: #181818; // Background color
 $gray: #222; // Для блоков в профиле и форме обратной связи
-$light-gray: #3E3E3E; // На карточке курсов
+$light-gray: #3e3e3e; // На карточке курсов
 $dark-gray: #303030; // Кнопки слайдера
 // Color Themes ==================
 // Dark Theme
-$dark-theme-text: #F5F5F5;
-$dark-theme-link: #F5F5F5;
-$dark-theme-title: #2FC9D2;
+$dark-theme-text: #f5f5f5;
+$dark-theme-link: #f5f5f5;
+$dark-theme-title: #2fc9d2;
 $dark-theme-bg: #181818;
 $dark-theme-bg-img: url(../assets/);
 /* Dark Theme Buttons */
-$dark-theme-button-color: #F5F5F5;
-$dark-theme-button-bg: #2FC9D2;
+$dark-theme-button-color: #f5f5f5;
+$dark-theme-button-bg: #2fc9d2;
 /* Dark Theme Popups */
-$dark-theme-popup-color: #F5F5F5;
+$dark-theme-popup-color: #f5f5f5;
 $dark-theme-popup-bg: #222222;
 // Light Theme
 $light-theme-text: #373737;
 $light-theme-link: #373737;
-$light-theme-bg: #F5F5F5;
+$light-theme-bg: #f5f5f5;
 $light-theme-bg-img: url(../assets/);
 /* Light Theme Inputs */
-$light-theme-input-color: rgba(255, 255, 255, 0.30);
+$light-theme-input-color: rgba(255, 255, 255, 0.3);
 $light-theme-input-bg: rgba(217, 217, 217, 0.01);
 /* Light Theme Buttons */
 $light-theme-button-color: #181818;
 $light-theme-button-bg: transparent;
 /* Light Theme Popups */
 $light-theme-popup-color: #222222;
-$light-theme-popup-bg: #F5F5F5;
+$light-theme-popup-bg: #f5f5f5;
 // fonts
-$fonts-text: 'Monseratt', serif;
+$fonts-text: "Monseratt", serif;
 // ui-index -  Переменные для регулирования z-index
 $ui-index-1: 1; // Для наползающих элементов в общем потоке
 $ui-index-2: 2; // Для наползающих элементов в общем потоке

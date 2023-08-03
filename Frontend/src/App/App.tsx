@@ -1,12 +1,17 @@
-// import React from "react";
-import { withProviders } from "./providers/index";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { ThemeProvider } from "./providers/Theme-provider";
 
+import { Error404, Main, Research } from "@/Pages/ui";
 import { Routing } from "@/Pages";
 
 const App = () => {
   return (
-    <Routing/>
+    <Router>
+      <ThemeProvider>
+        <Routing />
+      </ThemeProvider>
+    </Router>
   );
 };
 
-export  default withProviders(App);
+export default App;

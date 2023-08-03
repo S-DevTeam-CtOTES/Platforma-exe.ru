@@ -1,7 +1,6 @@
-@import '../../../App/Styles/Variables.scss';
-@import '../../../App/Styles/Mixins.scss';
+@import "../../../App/Styles/Variables.scss";
+@import "../../../App/Styles/Mixins.scss";
 .MainInfo {
-
     // .MainInfo__wrapper
 
     &__wrapper {
@@ -12,7 +11,7 @@
 
     // .MainInfo__img
     &__textbutton {
-        @include button($blue, $light-theme-button-bg, 10px, 45px);
+        @include button(var(--bg-color), $light-theme-button-bg, 10px, 45px);
     }
 
     &__img {

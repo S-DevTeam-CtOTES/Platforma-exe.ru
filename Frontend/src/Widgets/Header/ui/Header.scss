@@ -45,8 +45,46 @@
     }
 }
 
-.switch {}
 
-.slider {}
 
-.round {}
+
+@media screen and (max-width: 1200px) {
+
+}
+  
+@media screen and (max-width: 1024px) {
+
+}
+  
+@media screen and (max-width: 768px) {
+
+      
+      
+}
+
+@media screen and (max-width: 576px) { 
+    .header {
+
+        &__nav-wrapper-title {
+    
+            font-size: 24px;
+    
+        }
+
+        &__nav-wrapper-burger {
+            display: flex;
+            gap: 5px;
+            flex-direction: column;
+            align-items: center;
+            width: 20px;
+            cursor: pointer;
+        }
+        &__nav-wrapper-burger-line {
+            width: 100%;
+            height: 3px;
+            background-color: $white;
+         
+        }
+    
+    }
+}

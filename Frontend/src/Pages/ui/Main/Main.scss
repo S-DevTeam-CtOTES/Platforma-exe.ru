@@ -3,7 +3,7 @@
     z-index: -1;
     position: absolute;
     top: -600px;
-
+    left: 0;
     width: 0;
     height: 0;
 
@@ -11,5 +11,44 @@
     border-left: 1040px solid #000000;
     border-bottom: 1470px solid transparent;
 
+    }
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .Main {
+        &__triangle {
+            left: -250px;
+        }
+    }
+}
+  
+@media screen and (max-width: 1024px) {
+    .Main {
+        &__triangle {
+            left: -350px;
+        }
+    }
+    
+    
+}
+  
+@media screen and (max-width: 768px) {
+    .Main {
+        &__triangle {
+            left: -470px;
+        }
+    }
+      
+      
+}
+
+@media screen and (max-width: 576px) { 
+    .Main {
+        &__triangle {
+            top: -800px;
+            left: -750px;
+        }
     }
 }

@@ -2,7 +2,7 @@
 @import '../../../App/Styles/Mixins.scss';
 
 .DynamicContentBlock {
-    width: 60%;
+    width: 900px;
     // .DynamicContentBlock__title
 
     &__title {
@@ -28,3 +28,49 @@
         }
     }
 }
+
+
+
+
+@media screen and (max-width: 1200px) {
+    .DynamicContentBlock {
+        width: 600px;
+        &__title {
+            color: $dark-theme-text;
+            font-size: 56px;
+            font-weight: 900;
+        }
+        &__subtitle {
+            color: $dark-theme-text;
+            font-size: 25px;
+            font-weight: 500;
+        }
+    
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .DynamicContentBlock {
+        width: 300px;
+        &__title {
+            color: $dark-theme-text;
+            font-size: 46px;
+            font-weight: 900;
+        }
+        &__subtitle {
+            color: $dark-theme-text;
+            font-size: 25px;
+            font-weight: 500;
+        }
+    
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+
+      
+  }
+  
+  @media screen and (max-width: 576px) { 
+
+  }

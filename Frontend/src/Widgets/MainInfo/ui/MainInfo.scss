@@ -26,3 +26,39 @@
 }
 .container {
 }
+
+
+@media screen and (max-width: 1200px) {
+.MainInfo {
+    &__img {
+        width: auto;
+        height: auto;
+
+    }
+
+    &__textbutton {
+        font-size: 20px;
+        padding: 20px 30px 20px 30px;
+    }
+}
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .MainInfo {
+        margin-top: 100px;
+        &__img {
+            width: 800px;
+            height: 500px;
+    
+        }
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+
+      
+  }
+  
+  @media screen and (max-width: 576px) { 
+
+  }

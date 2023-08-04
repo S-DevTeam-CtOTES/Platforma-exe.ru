@@ -5,7 +5,9 @@ import { Routing } from "@/Pages";
 
 const App = () => {
   return (
-    <Routing/>
+    <>
+      <Routing/>
+    </>
   );
 };
 

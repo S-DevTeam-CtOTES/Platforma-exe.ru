@@ -34,19 +34,50 @@
 
 
 
-.Exploration {
 
-    // .Exploration__wrapper
-
-    &__wrapper {
+@media screen and (max-width: 1200px) {
+    .Exploration {
+        margin-top: 100px;
+        &__img {
+            width: 800px;
+    
+        }
+    
+        &__textbutton {
+            font-size: 20px;
+            padding: 20px 30px 20px 30px;
+        }
 
     }
-
-    // .Exploration__img
-
-    &__img {
+      }
+      
+      @media screen and (max-width: 1024px) {
+        .Exploration {
+            margin-top: 100px;
+            &__img {
+                width: 800px;
+                height: 800px;
         
-    }
-}
-.container {
-}
+            }
+        
+            &__textbutton {
+                font-size: 20px;
+                padding: 20px 30px 20px 30px;
+            }
+    
+            &__img {
+                width: max-content;
+                height: auto;
+    
+            }
+        }
+      }
+      
+      @media screen and (max-width: 768px) {
+    
+          
+      }
+      
+      @media screen and (max-width: 576px) { 
+    
+      }

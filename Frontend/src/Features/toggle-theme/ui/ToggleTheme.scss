@@ -15,7 +15,7 @@
                 .theme__toggle-slider-wrap {
                     -webkit-transform: translateX(26px);
                     -ms-transform: translateX(26px);
-                    transform: translateX(45px);
+                    transform: translateX(45px) rotate(360deg);
                 }
             }
         }

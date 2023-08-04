@@ -4,13 +4,12 @@ import blueSun from "@/Shared/assets/icons/blueSun.svg";
 import "./ToggleTheme.scss";
 
 const ToggleTheme = () => {
-  const [theme, setTheme] = useState<string>(
-    () => localStorage.getItem("selectedTheme") || ""
-  );
+  const [theme, setTheme] = useState<string>("");
 
   useEffect(() => {
-    document.documentElement.setAttribute("data-theme", theme);
+    document.querySelector("body").setAttribute("data-theme", theme);
 
+    setTheme(() => localStorage.getItem("selectedTheme") || "");
     const darkModeMediaQuery = window.matchMedia(
       "(prefers-color-scheme: dark)"
     );
@@ -22,15 +21,15 @@ const ToggleTheme = () => {
       localStorage.setItem("selectedTheme", newTheme);
     };
 
-    darkModeMediaQuery.addListener(handleDarkModeChange);
+    darkModeMediaQuery.addEventListener("change", handleDarkModeChange);
 
     return () => {
-      darkModeMediaQuery.removeListener(handleDarkModeChange);
+      darkModeMediaQuery.addEventListener("change", handleDarkModeChange);
     };
   }, [theme]);
 
   const toggleTheme = () => {
-    const newTheme = theme === "dark" ? "light" : "dark";
+    const newTheme = theme === "light" ? "dark" : "light";
     setTheme(newTheme);
     localStorage.setItem("selectedTheme", newTheme);
   };

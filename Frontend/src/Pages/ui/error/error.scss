@@ -2,7 +2,7 @@
 
 .Error__404 {
     height: 100vh;
-    background: $black;
+    background: var(--error-bg-color);
     &-img {
         width: 470px;
         height: 700px;

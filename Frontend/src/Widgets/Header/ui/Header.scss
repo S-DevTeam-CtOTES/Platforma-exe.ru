@@ -1,7 +1,6 @@
-@import '../../../App/Styles/Variables.scss';
+@import "../../../App/Styles/Variables.scss";
 
 .header {
-
     background-color: transparent;
 
     &__nav {
@@ -9,13 +8,13 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        width: 100%;
     }
 
     &__nav-wrapper {
         display: flex;
         align-items: center;
     }
-
 
     &__nav-wrapper-burger {
         display: flex;
@@ -29,14 +28,12 @@
     &__nav-wrapper-burger-line {
         width: 40px;
         height: 3px;
-        background-color: $white;
-     
+        background-color: var(--text-color);
     }
-
 
     &__nav-wrapper-title {
         margin-left: 15px;
-        color: #FFF;
+        color: var(--text-color);
         font-family: Montserrat;
         font-size: 48px;
         font-style: normal;
@@ -44,8 +41,6 @@
         line-height: normal;
     }
 }
-
-
 
 
 @media screen and (max-width: 1200px) {

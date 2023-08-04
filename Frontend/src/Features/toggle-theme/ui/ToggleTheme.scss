@@ -1,17 +1,17 @@
-@import '../../../App/Styles/Variables.scss';
+@import "../../../App/Styles/Variables.scss";
 
 .theme__toggle {
-	position: relative;
-	display: inline-block;
-	width: 80px;
-	height: 35px;
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 35px;
     &-input {
         opacity: 0;
         width: 0;
         height: 0;
         &:checked {
             & + .theme__toggle-slider {
-                background-color: $dark-theme-button-color;
+                background-color: #d9d9d9;
                 .theme__toggle-slider-wrap {
                     -webkit-transform: translateX(26px);
                     -ms-transform: translateX(26px);
@@ -21,47 +21,46 @@
         }
         &:focus {
             & + .theme__toggle-slider {
-                box-shadow: 0 0 1px $dark-theme-button-color;
+                box-shadow: 0 0 1px #d9d9d9;
             }
         }
     }
     &-blueMoon {
-        
     }
 }
 .theme__toggle-slider {
-	position: absolute;
-	cursor: pointer;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background-color: $dark-theme-button-color;
-	-webkit-transition: .4s;
-	transition: .4s;
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #d9d9d9;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
 
-	&.theme__toggle-round {
-		border-radius: 35px;
-		&:before {
-			border-radius: 50%;
-		}
-	}
+    &.theme__toggle-round {
+        border-radius: 35px;
+        &:before {
+            border-radius: 50%;
+        }
+    }
     &-wrap {
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: black;
+        background-color: $black;
         width: 36px;
         height: 36px;
         position: absolute;
         cursor: pointer;
         top: 0;
         left: 0px;
-		bottom: 4px;
+        bottom: 4px;
         right: 0;
-        -webkit-transition: .4s;
-        transition: all .4s;
-		border-radius: 35px;
+        -webkit-transition: 0.4s;
+        transition: all 0.4s;
+        border-radius: 35px;
 
         &-img {
             width: 20px;

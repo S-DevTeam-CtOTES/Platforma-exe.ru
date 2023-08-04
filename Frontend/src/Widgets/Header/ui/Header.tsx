@@ -1,6 +1,7 @@
 import { App } from "@/Shared";
-import { ToggleTheme } from "@/Features";
+
 import "./Header.scss";
+import ToggleTheme from "../../../Features/toggle-theme/ui/ToggleTHeme";
 
 const Header = () => {
   return (

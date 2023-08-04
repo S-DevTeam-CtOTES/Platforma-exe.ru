@@ -1,0 +1,10 @@
+:root {
+  --text-color: $black;
+  --bg-color: $white;
+  --link-color: $black;
+}
+[data-theme="dark"] {
+  --text-color: $white;
+  --bg-color: $blue;
+  --link-color: $white;
+}
